@@ -21,7 +21,7 @@ exports.config = {
 	allScriptsTimeout: 90000,
 	getPageTimeout: 90000,
 	suites: {
-    awscreatereports: 'Functional_Modules/Computerdetails.js'
+    computerdetails: 'Functional_Modules/Computerdetails.js'
     },
     capabilities: {
         'browserName': 'chrome',
